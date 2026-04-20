@@ -1,0 +1,77 @@
+# Manual Global de Políticas y Procedimientos de HR SaaS
+
+## 1. Trabajo Remoto y Arreglos Flexibles
+En HR SaaS, adoptamos una filosofía de "Trabajo desde Cualquier Lugar". Los empleados son elegibles para el trabajo remoto siempre que su rol lo permita y mantengan un alto estándar de desempeño.
+
+### 1.1 Subsidio para Oficina en Casa (Home Office)
+Los empleados recién contratados son elegibles para un subsidio único de configuración de oficina en casa de $500. Esto se puede utilizar para sillas ergonómicas, escritorios o monitores duales. Los recibos deben presentarse a través del portal de gastos dentro de los 30 días posteriores a la compra.
+
+### 1.2 Horas Core (Horas Centrales)
+Para facilitar la colaboración entre diferentes zonas horarias, observamos "Horas Core" de 10:00 AM a 3:00 PM EST. Durante esta ventana, se espera que todos los miembros del equipo estén disponibles para reuniones y comunicación sincrónica.
+
+## 2. Vacaciones y Tiempo Libre
+Creemos que el descanso es esencial para la creatividad y la productividad.
+
+### 2.1 Política de Devengamiento (Accrual)
+Los empleados a tiempo completo devengan 1.66 días de Tiempo Libre Pagado (PTO) por mes, totalizando 20 días por año. El devengamiento de PTO comienza el primer día de empleo, pero la licencia no puede tomarse durante los primeros 90 días del período de prueba sin la aprobación del gerente.
+
+### 2.2 Límites de Transferencia (Carry-over)
+Los empleados pueden transferir un máximo de 5 días de PTO al siguiente año calendario. Cualquier exceso de días se perderá el 31 de diciembre, a menos que las leyes laborales locales dicten lo contrario.
+
+### 2.3 Licencia por Enfermedad
+HR SaaS proporciona 10 días de licencia por enfermedad pagada por año. Para ausencias que superen los 3 días consecutivos, se requiere un certificado médico.
+
+## 3. Beneficios de Salud y Bienestar
+Se proporciona cobertura de salud integral a todos los empleados a tiempo completo y sus dependientes.
+
+### 3.1 Seguro Médico
+Nuestro plano premium cubre el 100% de la atención preventiva. Las visitas a especialistas requieren un copago de $20. El apoyo a la salud mental está incluido, proporcionando hasta 12 sesiones de terapia por año sin costo para el empleado.
+
+### 3.2 Reembolso de Fitness
+Los empleados son elegibles para un reembolso mensual de $50 para membresías de gimnasios, clases de yoga o suscripciones a aplicaciones de meditación.
+
+## 4. Desempeño y Desarrollo de Carrera
+Estamos comprometidos con el crecimiento de nuestra gente.
+
+### 4.1 Registros Trimestrales (Quarterly Check-ins)
+En lugar de revisiones anuales, realizamos "Conversaciones de Crecimiento" trimestrales. Estas sesiones se centran en la alineación de objetivos, retroalimentación y oportunidades de desarrollo profesional.
+
+### 4.2 Presupuesto de Aprendizaje
+Cada empleado tiene un presupuesto de aprendizaje anual de $1,500. Esto se puede utilizar para certificaciones, conferencias o libros. Se requiere la aprobación del jefe de departamento antes de realizar la reserva.
+
+## 5. Código de Conducta y Seguridad en el Lugar de Trabajo
+La diversidad, la equidad y la inclusión están en nuestro núcleo.
+
+### 5.1 Política contra el Acoso
+HR SaaS mantiene una política de tolerancia cero hacia el acoso o la discriminación de cualquier tipo por motivos de raza, género, orientación sexual o religión. Los informes se pueden realizar de forma anónima a través de nuestra línea directa de denuncias externa.
+
+### 5.2 Privacidad de Datos (GDPR)
+Como empresa de HR SaaS, manejamos datos confidenciales de los empleados. Todo el personal debe completar la capacitación obligatoria sobre GDPR y seguridad de datos durante su primera semana. El acceso a los datos del cliente es estrictamente sobre una base de "necesidad de saber".
+
+## 6. Onboarding y Offboarding
+### 6.1 Provisión de Equipo
+El equipo estándar incluye una MacBook Pro (14" o 16"), auriculares de alta calidad y un kit de bienvenida con la marca de la empresa.
+
+### 6.2 Renuncia Voluntaria
+Los empleados que deseen renunciar deben proporcionar un período de preaviso de al menos 30 días. Todo el equipo de la empresa debe devolverse el último día de empleo.
+
+## 7. Programa de Referidos de Empleados
+¿Encontraste un gran candidato? ¡Refiérelo! 
+Si tu referido es contratado y permanece durante al menos 6 meses, recibirás un bono de "Cazatalentos" de $2,000 en tu próximo ciclo de pago.
+
+## 8. Cultura Organizacional y Valores
+Nuestra cultura se basa en la transparencia radical y la autonomía. Fomentamos la toma de riesgos calculada y el aprendizaje continuo.
+
+### 8.1 Reuniones All-Hands
+Mensualmente realizamos una reunión con toda la compañía donde se comparten los resultados financieros y el progreso hacia los objetivos trimestrales (OKRs).
+
+### 8.2 Slack y Comunicación Asíncrona
+Utilizamos Slack como herramienta principal. Fomentamos el uso de canales públicos en lugar de mensajes directos para mantener la transparencia.
+
+## 9. Viajes Corporativos
+### 9.1 Política de Reembolso
+Los viajes de negocios deben ser aprobados previamente. El reembolso de comidas tiene un tope diario de $75. Se espera el uso de clase económica para vuelos de menos de 6 horas.
+
+---
+*Última Actualización: Abril 2026*
+*HR SaaS - Equipo de People Operations*

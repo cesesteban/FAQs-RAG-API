@@ -1,0 +1,27 @@
+# MANUAL DE POLÍTICAS CORPORATIVAS - HR SAaaS GLOBAL
+
+## 1. Código de Ética y Conducta Profesional
+Nuestra organización se rige por la integridad y la transparencia. Todos los empleados deben actuar bajo los más altos estándares de profesionalismo.
+
+### 1.1 Conflicto de Intereses
+Se considera conflicto de intereses cualquier actividad externa que pueda interferir con las responsabilidades del empleado. Toda actividad secundaria debe ser reportada al departamento de Compliance para su aprobación previa.
+
+### 1.2 Política de Regalos
+Está prohibido aceptar regalos de proveedores o clientes que superen el valor de $50 USD. Regalos de valor superior deben ser devueltos o donados a la fundación corporativa.
+
+## 2. Gestión de Gastos y Viáticos
+### 2.1 Reembolso de Comidas
+Para viajes de negocios, el tope diario de reembolso es de $80 USD. Se requiere recibo fiscal para todo gasto superior a $15 USD.
+
+### 2.2 Política de Vuelos
+Los vuelos de duración inferior a 5 horas deben realizarse en clase Turista o Económica Plus. Los vuelos transcontinentales de más de 8 horas son elegibles para clase Business, previa aprobación del CFO.
+
+## 3. Seguridad de la Información (Capa Legal)
+### 3.1 Manejo de Datos Sensibles
+El acceso a servidores de producción está restringido al equipo de DevOps Titular. La compartición de contraseñas es causal de terminación inmediata.
+
+### 3.2 Uso de Redes Sociales
+Los empleados no deben realizar declaraciones oficiales en nombre de la empresa a menos que pertenezcan al equipo de Relaciones Públicas.
+
+---
+*Documento ID: CORP-QA-2026*

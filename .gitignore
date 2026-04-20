@@ -1,0 +1,60 @@
+# Entornos y Variables de Configuración
+.env
+
+# Credenciales y Secretos
+google_creds.json
+*.pem
+*.key
+
+# Vector DB (Chroma)
+chroma_data/
+
+# Métricas y Datos generados por la API
+outputs/
+app/data/history_metrics.json
+
+# Python Standard Ignored Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos Virtuales (Virtual Environments)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+# Editores de código e IDEs (VS Code, IntelliJ, etc)
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+
+# Archivos de Sistema Operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

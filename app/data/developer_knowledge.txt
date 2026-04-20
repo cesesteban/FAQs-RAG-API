@@ -1,0 +1,22 @@
+# REPOSITORIO DE CONOCIMIENTO PARA DESARROLLADORES - RUNBOOKS & SOPS
+
+## 1. Estándares de Arquitectura Cloud
+Nuestra infraestructura vive mayoritariamente en Google Cloud Platform (GCP).
+
+### 1.1 Despliegue de Microservicios
+Todos los servicios deben desplegarse en Google Kubernetes Engine (GKE).
+- Es obligatorio el uso de Helm Charts para la gestión de templates.
+- Los límites de recursos (limits/requests) deben configurarse para evitar la preempción de nodos.
+
+## 2. Runbook de Respuesta a Incidentes (Severity 1)
+En caso de caída total del sistema (Incendio en producción):
+1.  **Notificación**: Alertar en el canal de Slack `#war-room-production`.
+2.  **Triage**: Identificar si el fallo es a nivel de base de datos o balanceador de carga.
+3.  **Rollback**: Si el fallo ocurrió después de un despliegue, ejecutar `helm rollback` inmediatamente.
+
+## 3. Guía de Commits y Pull Requests
+- Los mensajes de commit deben seguir el estándar de *Conventional Commits* (ej: `feat: add rate limiting`).
+- Todo PR requiere al menos 2 revisiones de desarrolladores Sr. antes de hacerse merge a `main`.
+
+---
+*Wiki interna: DEV-WIKI-INTERNAL*

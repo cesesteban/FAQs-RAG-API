@@ -1,0 +1,24 @@
+# MANUAL TÉCNICO DE SOPORTE - PRODUCTO: NEXUS HUB PRO
+
+## 1. Especificaciones Técnicas
+El Nexus Hub Pro es un dispositivo de interconectividad de alta velocidad para centros de datos.
+
+### 1.1 Puertos y Conectividad
+- 8x Puertos SFP+ de 10Gbps.
+- 2x Puertos QSFP28 de 100Gbps para Uplink.
+- Consumo máximo: 120W por unidad.
+
+## 2. Guía de Resolución de Problemas (Troubleshooting)
+### 2.1 El dispositivo no enciende (LED Rojo)
+- Causa: Falla en la fuente de alimentación redundante (PSU).
+- Solución: Verifique que ambos cables de poder estén conectados a circuitos diferentes. Si el LED persiste en rojo, reemplace el módulo PSU-A.
+
+### 2.2 Latencia alta en puertos Uplink
+- Causa: Atenuación por fibra sucia o dañada.
+- Solución: Limpie los conectores LC con un kit de limpieza de precisión. Ejecute el comando `show interface diagnostics` para ver los niveles de dBm.
+
+## 3. Garantía y Reemplazos (RMA)
+nexus Hub Pro incluye 3 años de garantía limitada. Para iniciar un proceso de RMA, el cliente debe proporcionar el número de serie y los logs de diagnóstico generados por el sistema.
+
+---
+*Referencia: TECH-SUP-NEXUS-V3*

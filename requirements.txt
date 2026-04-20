@@ -1,0 +1,15 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.1
+pydantic>=2.6.3
+pydantic-settings>=2.2.1
+python-dotenv>=1.0.1
+langchain>=0.1.12
+langchain-google-genai>=1.0.1
+langchain-google-vertexai>=1.0.1
+langchain-openai>=0.1.0
+langgraph>=0.0.30
+langchain-chroma>=0.1.1
+langchain-community>=0.0.28
+chromadb>=0.4.24
+pyyaml>=6.0.1
+typing-extensions>=4.10.0
