@@ -22,15 +22,27 @@ The system is indexed with a comprehensive HR Policy Manual (`app/data/faq_docum
 - Performance reviews and code conduct.
 
 ### Setup
-1. **Install Dependencies**: `pip install -r requirements.txt`
-2. **Configure Environment**: Edit the `.env` file with your `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION`.
-3. **Automatic Re-indexing**: The system automatically scans the `app/data` folder at startup. Start the app to refresh the knowledge base.
+
+#### Running Locally
+1. **Create Virtual Environment**: `python -m venv venv`
+2. **Activate it**: 
+   - Windows: `venv\Scripts\activate`
+   - Linux/Mac: `source venv/bin/activate`
+3. **Install Dependencies**: `pip install -r requirements.txt`
+4. **Configure Environment**: Edit the `.env` file with your `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION`.
+5. **Run the API**: `uvicorn app.main:app --reload`
+
+#### Running with Docker
+1. **Configure Environment**: Ensure your `.env` file is set up with your Google Cloud credentials.
+2. **Build and Run**: `docker compose up --build -d`
+3. **Stop the containers**: `docker compose down`
+
+*Note: The system automatically scans the `app/data` folder at startup. Start the app to refresh the knowledge base.*
 
 ### Usage
+- **API Documentation**: Once running, visit `http://localhost:8000/docs` to access the interactive Swagger UI and use the endpoints to ask questions.
 - **Bilingual Support**: Auto-detects between English or Spanish queries.
-- **Query CLI**: `docker exec -it faqs-rag-api-api-1 python -m app.scripts.query_cli "Your Question?"`
-
-Once running, visit `http://localhost:8000/` to access the interactive Swagger documentation.
+- **Query CLI**: `docker exec -it faqs-rag-api-api-1 python -m app.scripts.query_cli "Your Question?"` (If running with Docker) or `python -m app.scripts.query_cli "Your Question?"` (If running locally).
 
 ---
 
@@ -53,12 +65,24 @@ El sistema está indexado con un completo Manual de Políticas de RRHH (`app/dat
 - Revisiones de desempeño y el código de conducta.
 
 ### Configuración
-1. **Instalar Dependencias**: `pip install -r requirements.txt`
-2. **Configurar Entorno**: Añade tus credenciales a un archivo `.env` (`GOOGLE_CLOUD_PROJECT`, `GOOGLE_CLOUD_LOCATION`).
-3. **Re-indexación Automática**: El sistema escanea la carpeta `app/data` automáticamente al iniciarse. Reiniciá el contenedor o la app para recargar el conocimiento.
+
+#### Corriendo Localmente
+1. **Crear Entorno Virtual**: `python -m venv venv`
+2. **Activarlo**: 
+   - Windows: `venv\Scripts\activate`
+   - Linux/Mac: `source venv/bin/activate`
+3. **Instalar Dependencias**: `pip install -r requirements.txt`
+4. **Configurar Entorno**: Añade tus credenciales a un archivo `.env` (`GOOGLE_CLOUD_PROJECT`, `GOOGLE_CLOUD_LOCATION`).
+5. **Iniciar la API**: `uvicorn app.main:app --reload`
+
+#### Corriendo con Docker
+1. **Configurar Entorno**: Asegúrate de tener el archivo `.env` con tus credenciales.
+2. **Construir y Levantar**: `docker compose up --build -d`
+3. **Detener contenedores**: `docker compose down`
+
+*Nota: El sistema escanea la carpeta `app/data` automáticamente al iniciarse. Reiniciá el contenedor o la app para recargar el conocimiento.*
 
 ### Uso
+- **Documentación API**: Al estar corriendo el servicio, visitá `http://localhost:8000/docs` para utilizar el explorador interactivo Swagger y probar los endpoints.
 - **Soporte Bilingüe**: Detecta automáticamente español o inglés en las preguntas y responde iterativamente.
-- **CLI de Consulta**: `docker exec -it faqs-rag-api-api-1 python -m app.scripts.query_cli "¿Cuál es la política?"`
-
-Al estar corriendo el servicio, visitá `http://localhost:8000/` para utilizar el explorador interactivo Swagger.
+- **CLI de Consulta**: `docker exec -it faqs-rag-api-api-1 python -m app.scripts.query_cli "¿Cuál es la política?"` (Si usas Docker) o `python -m app.scripts.query_cli "¿Cuál es la política?"` (Si corres localmente).
