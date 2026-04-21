@@ -3,7 +3,6 @@ from typing import List, Optional
 
 class RAGQuery(BaseModel):
     query: str
-    top_k: int = 3
     lang: str = "es"
 
 class AuditStep(BaseModel):

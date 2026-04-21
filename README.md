@@ -40,7 +40,7 @@ The system is indexed with a comprehensive HR Policy Manual (`app/data/faq_docum
 *Note: The system automatically scans the `app/data` folder at startup. Start the app to refresh the knowledge base.*
 
 ### Usage
-- **API Documentation**: Once running, visit `http://localhost:8000/docs` to access the interactive Swagger UI and use the endpoints to ask questions.
+- **API Documentation**: Once running, visit `http://localhost:8000/` to access the interactive Swagger UI and use the endpoints to ask questions.
 - **Bilingual Support**: Auto-detects between English or Spanish queries.
 - **Query CLI**: `docker exec -it faqs-rag-api-api-1 python -m app.scripts.query_cli "Your Question?"` (If running with Docker) or `python -m app.scripts.query_cli "Your Question?"` (If running locally).
 
@@ -83,6 +83,6 @@ El sistema está indexado con un completo Manual de Políticas de RRHH (`app/dat
 *Nota: El sistema escanea la carpeta `app/data` automáticamente al iniciarse. Reiniciá el contenedor o la app para recargar el conocimiento.*
 
 ### Uso
-- **Documentación API**: Al estar corriendo el servicio, visitá `http://localhost:8000/docs` para utilizar el explorador interactivo Swagger y probar los endpoints.
+- **Documentación API**: Al estar corriendo el servicio, visitá `http://localhost:8000/` para utilizar el explorador interactivo Swagger y probar los endpoints.
 - **Soporte Bilingüe**: Detecta automáticamente español o inglés en las preguntas y responde iterativamente.
 - **CLI de Consulta**: `docker exec -it faqs-rag-api-api-1 python -m app.scripts.query_cli "¿Cuál es la política?"` (Si usas Docker) o `python -m app.scripts.query_cli "¿Cuál es la política?"` (Si corres localmente).

@@ -7,11 +7,11 @@ google_creds.json
 *.key
 
 # Vector DB (Chroma)
-chroma_data/
+# chroma_data/
 
 # Métricas y Datos generados por la API
-outputs/
-app/data/history_metrics.json
+# outputs/
+# app/data/history_metrics.json
 
 # Python Standard Ignored Files
 __pycache__/
